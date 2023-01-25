@@ -1,3 +1,5 @@
+const stringLength = require('./stringLength');
+
 test('length of string is 4', () => {
   expect(() => stringLength('test').toBe(4));
 });
